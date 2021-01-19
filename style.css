@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+     :root {
+        /* ceci sont des variables css  */
+        --strong-cyan: hsl(171, 66%, 44%);
+        --light-blue: hsl(233, 100%, 69%);
+        --dark-grayish-blue: hsl(210, 10%, 33%);
+        --grayish-blue: hsl(201, 11%, 66%);
+    }
+    
+    * {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        /* on insert les variables css de cette façon  : var (--) */
+        color: var(--grayish-blue);
+    }
+    
+    body {
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        font-size: 18px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+        color: var(--dark-grayish-blue);
+    }
+    
+    header {
+        margin-top: 9.375rem;
+    }
+    
+    main {
+        margin-top: 10rem;
+    }
+    
+    footer {
+        background-color: #f5f6f8;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    .button-cyan {
+        background-color: var(--strong-cyan);
+        color: white;
+        padding: 10px 50px;
+        border-radius: 25px;
+        border-bottom: 2px #219f8a;
+        width: 250px;
+    }
+    
+    .button-blue {
+        background-color: var(--light-blue);
+        color: white;
+        padding: 10px 50px;
+        border-radius: 25px;
+        border-bottom: 2px #5464c6;
+        /* border-bottom: 1px 5765bd; */
+        width: 250px;
+    }
+    
+    .computer {
+        margin-bottom: 80px;
+    }
+    
+    .margin-top-10rem {
+        margin-top: 10rem;
+    }
+    
+    .margin-top-5rem {
+        margin-top: 5rem;
+    }
+    
+    .logo-footer {
+        width: 50px;
+    }
+    
